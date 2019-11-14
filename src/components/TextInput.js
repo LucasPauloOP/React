@@ -4,14 +4,14 @@ const TextInput = ({id,name,value,placeholder,className,autoFocus, onChange, onB
     return(
         <Fragment>
             <input type="text"
-                   className={"input" + className}
+                   className={"input " + className} 
                    id = {id}
                    name = {name}
                    value = {value}
                    placeholder = {placeholder}
                    autoFocus = {autoFocus}
-                   onChange = {onChange}
-                   onBlur = {onBlur}
+                   onChange ={onChange}
+                   onBlur ={onBlur}
             />
         </Fragment>
     )

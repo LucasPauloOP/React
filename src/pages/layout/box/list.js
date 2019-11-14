@@ -4,8 +4,12 @@ import TaskSchema from './list/taskSchema';
 class List extends Component {
     render () {
         return (
-            <div >
-               <TaskSchema />
+            <div>
+                <div className="is-task-list">
+                    <div>
+                        <TaskSchema />
+                    </div>
+                </div>
             </div>
         )
     }
