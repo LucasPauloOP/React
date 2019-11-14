@@ -5315,7 +5315,7 @@ label.panel-block {
   .tabs li {
     display: block; }
     .tabs li.is-active a {
-      border-bottom-color: #3273dc !important;
+      border-bottom-color: #3273dc;
       color: #3273dc; }
   .tabs ul {
     align-items: center;
@@ -6877,7 +6877,7 @@ label.panel-block {
       background-color: #238cd1;
       color: #fff; }
     .hero.is-info .tabs a {
-      color: #040404;
+      color: #fff;
       opacity: 0.9; }
       .hero.is-info .tabs a:hover {
         opacity: 1; }
